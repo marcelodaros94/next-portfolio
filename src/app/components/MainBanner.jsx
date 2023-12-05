@@ -1,5 +1,6 @@
 import React from "react";
 import Arrow from "./Arrow";
+import Link from "next/link";
 
 const MainBanner = () => {
     return (
@@ -11,6 +12,9 @@ const MainBanner = () => {
                 <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
                 Over 7 years as a Fullstack Artist. And yes, passionate about UX, Marketing and Leadership too :)
                 </p>
+                <Link href="https://github.com/marcelodaros94" target="_blank" className="block mx-auto text-center border border-solid border-gray-300  text-base sm:text-lg mb-6 lg:text-xl p-2 rounded-full">
+                    Github code
+                </Link>
             </div>
             <Arrow />
         </section>

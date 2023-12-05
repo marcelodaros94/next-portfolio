@@ -34,7 +34,17 @@ const ExperienceSlider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: false
+    arrows: false,
+    infinite: false,
+    responsive: [
+       {
+          breakpoint: 768,
+          settings: {      
+            slidesToShow: 1.5,
+            dots: false
+          }
+       }
+    ]
   };
 
   const renderTxt = (txt) => {
@@ -46,12 +56,12 @@ const ExperienceSlider = () => {
       <Slider {...settings}>
         {jobs.map(job => 
           <div>
-            <div className="flex">
-              <div className="w-1/2 p-4">
+            <div className="flex flex-col md:flex-row">
+              <div className="md:w-1/2 p-2">
                 <h2 className="text-2xl font-bold mb-4">{job.company}</h2>
-                <p className="text-lg" dangerouslySetInnerHTML={renderTxt(job.description)}></p>
+                <p className="text-base md:text-lg" dangerouslySetInnerHTML={renderTxt(job.description)}></p>
               </div>
-              <div className="w-1/2">
+              <div className="p-2 md:p-0 md:w-1/2">
                 <img src={job.image} alt="Marcelo Da Ros" />
               </div>
             </div>

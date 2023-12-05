@@ -5,7 +5,7 @@ import React, { useRef } from 'react';
 const Arrow = () => {
 
   return (
-    <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 cursor-pointer animate-bounce">
+    <div className="absolute bottom-6 cursor-pointer animate-bounce">
       <Link href="#experience">
         <svg
           xmlns="http://www.w3.org/2000/svg"
