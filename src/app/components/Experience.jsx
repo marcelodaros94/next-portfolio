@@ -54,8 +54,8 @@ const ExperienceSlider = () => {
   return (
     <section id="experience" className="bg-[#64646454] flex flex-col justify-center">
       <Slider {...settings}>
-        {jobs.map(job => 
-          <div>
+        {jobs.map((job,index) => 
+          <div key={index}>
             <div className="flex flex-col md:flex-row">
               <div className="md:w-1/2 p-2">
                 <h2 className="text-2xl font-bold mb-4">{job.company}</h2>
