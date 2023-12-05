@@ -41,21 +41,23 @@ const ExperienceSlider = () => {
   };
 
   return (
-    <Slider {...settings}>
-      {jobs.map(job => 
-        <div>
-          <div className="flex">
-            <div className="w-1/2 p-4">
-              <h2 className="text-2xl font-bold mb-4">{job.company}</h2>
-              <p className="text-lg" dangerouslySetInnerHTML={renderTxt(job.description)}></p>
-            </div>
-            <div className="w-1/2">
-              <img src={job.image} alt="Marcelo Da Ros" />
+    <section id="experience">
+      <Slider {...settings}>
+        {jobs.map(job => 
+          <div>
+            <div className="flex">
+              <div className="w-1/2 p-4">
+                <h2 className="text-2xl font-bold mb-4">{job.company}</h2>
+                <p className="text-lg" dangerouslySetInnerHTML={renderTxt(job.description)}></p>
+              </div>
+              <div className="w-1/2">
+                <img src={job.image} alt="Marcelo Da Ros" />
+              </div>
             </div>
           </div>
-        </div>
-      )}
-    </Slider>
+        )}
+      </Slider>
+    </section>
   );
 };
 
