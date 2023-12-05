@@ -28,4 +28,15 @@ body {
 section{
   height: 100vh;
   position: relative;
+  padding: 12px 16px;
+}
+.slick-dots{
+  position: relative !important;
+}
+.slick-dots li button:before{
+  content: '' !important;
+  background: gray !important;
+}
+.slick-dots li.slick-active button:before{
+  background: #c43190 !important;
 }

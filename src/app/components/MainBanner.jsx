@@ -3,7 +3,7 @@ import Arrow from "./Arrow";
 
 const MainBanner = () => {
     return (
-        <section>
+        <section className="bg-[#121212]  flex items-center justify-center">
             <div>
                 <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
                     Hello, I'm Marcelo
