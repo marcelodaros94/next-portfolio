@@ -26,7 +26,7 @@ const ExperienceSlider = () => {
     ]
   };
 
-  const renderTxt = (txt) => {
+  const renderTxt = (txt: string) => {
     return { __html: txt };
   };
 
