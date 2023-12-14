@@ -1,0 +1,53 @@
+{
+    "en": {
+        "title": "Hello, I'm Marcelo",
+        "description": "Over 7 years as a Fullstack artist. Yes, passionate about UX, Marketing, and Leadership too ;)",
+        "jobs": [{
+            "company": "Solera (2023)",
+            "description": "I was in charge of a multi-step form project to automate the transfer of clients from other investment funds to ours. At each step, validations consuming external APIs were necessary, and we also had to add our own services in PHP. Additionally, we scheduled jobs for remarketing with users who interacted with the form, through integrations with Salesforce. We also maintained the clients' dashboard, which was built in ReactJS, and added new functionalities like account unlocking.",
+            "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3"
+        },{
+            "company": "Globant (2021 - 2023)",
+            "description": "I was assigned to a project for Disney, where I updated the version of the Marvel website's Drupal CMS. Additionally, maintenance was provided, and new sections were worked on. This experience allowed me to get into the world of Git Flow, Jenkins, and learn other practices from a globally recognized company. Additionally, I participated in the development of a delivery app, where we refactored components, applying SOLID principles. We also created unit tests with Jest, implemented Auth0 Login, and fixed bugs.",
+            "image": "https://cdn.pixabay.com/photo/2018/05/04/20/01/website-3374825_1280.jpg"
+        },{
+            "company": "Impulse Growth Partner (2020 - 2021)",
+            "description": "I led a 3-developer team and Marketing projects to achieve conversion goals and improve Google PageSpeed scores. We created reusable modules with Hubspot and carried out integrations with that CRM, mainly using Laravel, and also MERN. Additionally, we performed audits and implemented experiments and UX improvements on landing pages and E-commerce. It was also the first time I managed Linux servers through Digital Ocean and AWS, including deploying apps from scratch, configuring SSL certificates, among other activities. As head of the IT department, I participated in planning, defining OKRs, etc. and took several courses on time optimization, motivation for remote teams, among others.",
+            "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3"
+        },{
+            "company": "BITEL (2018 - 2020)",
+            "description": "We built the claims and complaints section on the new website in Drupal. It consisted of a form with email submission and database storage. Additionally, maintenance was provided to the previous site, which was built with Symfony and had some pages that continued to be used for a few months. Other common tasks were landing page layouts and adjustments in the E-commerce.",
+            "image": "https://cdn.pixabay.com/photo/2018/05/04/20/01/website-3374825_1280.jpg"
+        },{
+            "company": "Dezain (2016 - 2018)",
+            "description": "I participated in the complete development flow of a variety of applications for different business models (Warehouses, laboratories, pharmacies, schools, pyramids, etc.), from designing the database to hosting deployment.<br>I contributed to the programming of a job for the Ministry, which would interact with an Oracle database of claims.",
+            "image": "https://cdn.pixabay.com/photo/2018/05/04/20/01/website-3374825_1280.jpg"
+        }]
+    },
+    "es": {
+        "title": "Hola, soy Marcelo",
+        "description": "Más de 7 años como artista Fullstack. Y sí, apasionado también por el UX, Marketing y Liderazgo ;)",
+        "jobs": [{
+            "company": "Solera (2023)",
+            "description": "Estuve a cargo de un proyecto de multi-step form para automatizar el traspaso de clientes de otros fondos de inversión al nuestro. En cada paso eran necesarias validaciones que consumían API’s externas, y también tuvimos que agregar nuestros propios servicios en PHP. Adicionalmente, se programaron jobs para hacer remarketing, con los usuarios que interactuaron con el form, a través de integraciones con Salesforce. También se dio mantenimiento al dashboard de los clientes, el cual estaba hecho en ReactJS, y se añadieron funcionalidades nuevas como desbloqueo de cuenta.",
+            "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3"
+          },{
+            "company": "Globant (2021 - 2023)",
+            "description": "Fui asignado a un proyecto para Disney, en el cual actualicé la versión del Drupal CMS de la web de Marvel. Además, se le dio mantenimiento y se trabajó en nuevas secciones. Dicha experiencia me permitió introducirme en el mundo del Git Flow, Jenkins, y conocer otras prácticas de una compañía reconocida mundialmente. Adicionalmente, participé en el desarrollo de un app de delivery, en la cual refactorizamos componentes, aplicando los principios SOLID. También se crearon tests unitarios con Jest, se implementó Auth0 Login y se corrigieron bugs.",
+            "image": "https://cdn.pixabay.com/photo/2018/05/04/20/01/website-3374825_1280.jpg"
+          },{
+            "company": "Impulse Growth Partner (2020 - 2021)",
+            "description": "Estuve a cargo de un 3-developer team y proyectos de Marketing para conseguir objetivos de conversión y Google PageSpeed score. Maquetamos módulos reutilizables con Hubspot y realizamos integraciones con dicho CRM apoyándonos, principalmente en Laravel, y también en MERN. Además, realizábamos auditorías e implementábamos experimentos y mejoras UX en landing pages e E-commerce. También fue la primera vez en la que pude administrar servidores Linux a través de Digital Ocean y AWS. Incluyendo despliegue de apps desde cero, configuración de certificados SSL y otras actividades. Como líder del departamento de IT, me tocó participar de la planificación, definición de OKRs, etc. Y llevé varios cursos de optimización de tiempo, motivación para equipos remotos, entre otros.",
+            "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3"
+          },{
+            "company": "BITEL (2018 - 2020)",
+            "description": "Se construyó la sección de reclamos y quejas en el nuevo website en Drupal. Consistía en un formulario con envío de correo y almacenamiento en base de datos. Además, se le dio mantenimiento al sitio anterior que se encontraba hecho con Symfony y contaba con algunas páginas que siguieron siendo utilizadas por unos meses. Otras tareas comunes fueron maquetación de landing pages y ajustes en el E-commerce.",
+            "image": "https://cdn.pixabay.com/photo/2018/05/04/20/01/website-3374825_1280.jpg"
+          },{
+            "company": "Dezain (2016 - 2018)",
+            "description": "Participé del flujo completo del desarrollo de una diversidad de aplicaciones, para diferentes modelos de negocio (Almacenes, laboratorios, farmacias, escuelas, pirámides, etc.), desde el diseño de la base de datos hasta la subida al hosting.<br>Contribuí en la programación de un job para el Ministerio, el cual interactuaría con una Oracle database de siniestros.",
+            "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3"
+          }
+        ]
+    }
+}
