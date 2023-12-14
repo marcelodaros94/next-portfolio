@@ -10,12 +10,11 @@ const ExperienceSlider = () => {
 
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    infinite: 0,
     responsive: [
        {
           breakpoint: 768,

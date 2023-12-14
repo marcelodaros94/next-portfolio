@@ -1,3 +1,5 @@
+'use client'
+
 import { createContext, useContext, useState } from 'react';
 import data from '../../assets/content.json';
 import { Content } from '../types/Content';

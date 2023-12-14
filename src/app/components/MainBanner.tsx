@@ -5,12 +5,22 @@ import Arrow from "./Arrow";
 import Link from "next/link";
 import { useContent } from "../context/ContentContext";
 
+export type Language = 'en' | 'es';
+
 const MainBanner = () => {
-    const { language, data } = useContent();
+    const { language, data, setLanguage } = useContent();
     const { title, description } = data[language];
 
+    const handleClick = (language: Language) => {
+        setLanguage(language);
+    }
+
     return (
-        <section className="bg-[#121212]  flex items-center justify-center">
+        <section className="bg-[#121212]  flex items-center justify-center relative">
+            <div className="absolute top-5 left-5 italic underline">
+                <span className="mr-5" onClick={() => handleClick('es')}>Español</span>
+                <span onClick={() => handleClick('en')}>English</span>
+            </div>            
             <div>
                 <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
                     { title }
