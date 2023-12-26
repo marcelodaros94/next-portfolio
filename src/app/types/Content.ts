@@ -1,21 +1,17 @@
+export type Job = {
+  company: string;
+  description: string;
+  image: string;
+}
+
+export type ContentPerLanguage = {
+  title: string;
+  description: string;
+  jobs: Job[];
+}
+
 export type Content = {
-    en: {
-      title: string;
-      description: string;
-      jobs: {
-        company: string;
-        description: string;
-        image: string;
-      }[];
-    };
-    es: {
-      title: string;
-      description: string;
-      jobs: {
-        company: string;
-        description: string;
-        image: string;
-      }[];
-    };
-  };
+  en: ContentPerLanguage;
+  es: ContentPerLanguage;
+};
   
