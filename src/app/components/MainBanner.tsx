@@ -18,8 +18,8 @@ const MainBanner = () => {
     return (
         <section className="bg-[#121212]  flex items-center justify-center relative">
             <div className="absolute top-5 left-5 italic underline">
-                <span className="mr-5" onClick={() => handleClick('es')}>Español</span>
-                <span onClick={() => handleClick('en')}>English</span>
+                <span className="mr-5 cursor-pointer" onClick={() => handleClick('es')}>Español</span>
+                <span className="cursor-pointer" onClick={() => handleClick('en')}>English</span>
             </div>            
             <div>
                 <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
