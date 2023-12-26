@@ -3,8 +3,7 @@
 import { createContext, useContext, useState } from 'react';
 import data from '../../assets/content.json';
 import { Content } from '../types/Content';
-
-export type Language = 'en' | 'es';
+import { Language } from '../types/Language';
 
 interface ContentContextProps {
   language: Language;

@@ -4,8 +4,7 @@ import React from "react";
 import Arrow from "./Arrow";
 import Link from "next/link";
 import { useContent } from "../context/ContentContext";
-
-export type Language = 'en' | 'es';
+import { Language } from "../types/Language";
 
 const MainBanner = () => {
     const { language, data, setLanguage } = useContent();
