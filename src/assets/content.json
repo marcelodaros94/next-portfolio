@@ -3,6 +3,10 @@
         "title": "Hello, I'm Marcelo",
         "description": "Over 7 years as a Fullstack artist. Yes, passionate about UX, Marketing, and Leadership too ;)",
         "jobs": [{
+            "company": "Belity (2024 - ...)",
+            "description": "My team had to refactor the Laravel API of a mobile application. Then, we migrated that API code to NodeJS. Module by module as microservices. Also, we made a dashboard from scratch with Next. And during the whole process, we got to automatize some tasks for the Marketing and Operations departments, which involved programming cronjobs and segmentations.",
+            "image": "https://cdn.pixabay.com/photo/2018/05/04/20/01/website-3374825_1280.jpg"
+        },{
             "company": "Solera (2023)",
             "description": "I was in charge of a multi-step form project to automate the transfer of clients from other investment funds to ours. At each step, validations consuming external APIs were necessary, and we also had to add our own services in PHP. Additionally, we scheduled jobs for remarketing with users who interacted with the form, through integrations with Salesforce. We also maintained the clients' dashboard, which was built in ReactJS, and added new functionalities like account unlocking.",
             "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3"
