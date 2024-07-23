@@ -7,6 +7,7 @@ export type Job = {
 export type ContentPerLanguage = {
   title: string;
   description: string;
+  booking: string;
   jobs: Job[];
 }
 
