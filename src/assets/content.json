@@ -2,6 +2,7 @@
     "en": {
         "title": "Hello, I'm Marcelo",
         "description": "Over 7 years as a Fullstack artist. Yes, passionate about UX, Marketing, and Leadership too ;)",
+        "booking": "Digital Project Consulting",
         "jobs": [{
             "company": "Belity (2024 - ...)",
             "description": "My team had to refactor the Laravel API of a mobile application. Then, we migrated that API code to NodeJS. Module by module as microservices. Also, we made a dashboard from scratch with Next. And during the whole process, we got to automatize some tasks for the Marketing and Operations departments, which involved programming cronjobs and segmentations.",
@@ -31,6 +32,7 @@
     "es": {
         "title": "Hola, soy Marcelo",
         "description": "Más de 7 años como artista Fullstack. Y sí, apasionado también por el UX, Marketing y Liderazgo ;)",
+        "booking": "Consultoría en proyectos digitales",
         "jobs": [{
             "company": "Belity (2024-...)",
             "description": "Refactorizamos una plantilla de Laravel para sistema de especialistas con citas a domicilio. Luego reescribimos el backend progresivamente como microservicios en NodeJS y el frontend en React/NextJS. Esto permitió reducir costos, tanto de servidor, como soporte de desarrolladores para los bugs que tenía la plantilla. Además, pudimos automatizar operaciones del área de atención al cliente y otras más.",
