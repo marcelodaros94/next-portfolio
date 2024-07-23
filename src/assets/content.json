@@ -34,7 +34,7 @@
         "description": "Más de 7 años como artista Fullstack. Y sí, apasionado también por el UX, Marketing y Liderazgo ;)",
         "booking": "Consultoría en proyectos digitales",
         "jobs": [{
-            "company": "Belity (2024-...)",
+            "company": "Belity (2024 - ...)",
             "description": "Refactorizamos una plantilla de Laravel para sistema de especialistas con citas a domicilio. Luego reescribimos el backend progresivamente como microservicios en NodeJS y el frontend en React/NextJS. Esto permitió reducir costos, tanto de servidor, como soporte de desarrolladores para los bugs que tenía la plantilla. Además, pudimos automatizar operaciones del área de atención al cliente y otras más.",
             "image": "https://cdn.pixabay.com/photo/2018/05/04/20/01/website-3374825_1280.jpg"
           },{
